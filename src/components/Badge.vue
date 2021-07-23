@@ -30,7 +30,7 @@ export default {
 .badge-background {
   display: block;
   width: 100%;
-  height: 156px;
+  height: 280px;
   background-size: cover;
   background-position: center;
 }

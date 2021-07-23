@@ -4,15 +4,18 @@
     <main id="main" style="margin-top: 84 px;">
       <router-view/>
     </main>
+    <my-footer/>
+
   </div>
 </template>
 
 <script>
 import MyHeader from '@/components/MyHeader.vue';
+import MyFooter from '@/components/MyFooter.vue';
 
 export default {
   name: 'app',
-  components: { MyHeader },
+  components: { MyHeader, MyFooter },
 };
 </script>
 
